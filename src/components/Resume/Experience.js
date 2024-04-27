@@ -1,7 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+// import Abstract from './Experience/Abstract';
 import Job from './Experience/Job';
+// import Publication from './Experience/Publication';
 
 const Experience = ({ data }) => (
   <div className="experience">

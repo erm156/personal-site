@@ -19,7 +19,6 @@ const messages = [
   'but not this :(  ',
   'you.can.also.email.me.with.specific.topics.like',
   'just-saying-hi',
-  'please-work-for-us',
   'help',
   'admin',
   'or-I-really-like-your-website',
@@ -78,7 +77,7 @@ const EmailLink = () => {
     >
       <a href={validateText(message) ? `mailto:${message}@mldangelo.com` : ''}>
         <span>{message}</span>
-        <span>@mldangelo.com</span>
+        <span>@eric.work</span>
       </a>
     </div>
   );
